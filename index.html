@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta content="telephone=no" name="format-detection">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<title>库存看板系统操作手册</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<div class="header">库存看板系统操作手册</div>
+<div class="null"></div>
+<div class="main">
+	<div class="main-left">
+		<h2>在线帮助手册</h2>
+		<div class='content-title'>一. 库存平板端</div>
+		<div class='mobile-container'>
+			<a class='list' href="#login">1. 库存平板登录</a>
+			<a class='list' href="#index">2. 首页</a>
+			<a class='list' href="#ll">3. 领料出库</a>
+			<a class='list' href="#ll">3.1 领料单列表</a>
+			<a class='list' href="#ll-detail">3.2 领料单明细</a>
+			<a class='list' href="#ll-detail-content">3.3 物料信息明细</a>
+			<a class='list' href="#ll-ck">3.4 扫码匹配出库</a>
+			<a class='list' href="#sale">4. 销售出库</a>
+			<a class='list' href="#sale">4.1 扫描出售</a>
+			<a class='list' href="#zzp">5. 自制品入库</a>
+			<a class='list' href="#yl">6. 余料入库</a>
+			<a class='list' href="#wgp">7. 外购品入库</a>
+		</div>
+		<div class='content-title'>二. 库存PC端</div>
+		<div class='pc-container'>
+			<a class="list" href="#pc-wgp">1. 登录</a>
+			<a class="list" href="#pc-wgp-index">2. pc-外购品</a>
+			<a class="list" href="#pc-zzp-index">3. pc-自制品</a>
+			<a class="list" href="#pc-yl-index">4. pc-余料</a>
+			<a class="list" href="#pc-export">5. pc-导出</a>
+		</div>
+	</div>
+	<div class='main-right'>
+		<div class="container">
+			<div class="h1">一. 库存平板端操作流程：</div>
+			<div class="null" id='login'></div>
+			<div class="main-content-title-list">1. 库存平板登录</div>
+			<p class='explain-p'>下载安装库存看板App，打开将进入登录页面，如下图1 :</p>
+			<p class="img-p"><img class='img' src="images/login.png"/></p>
+			<p class='img-explain'>图1：库存app登录界面</p>
+			<div class="null" id='index'></div>
+			<div class="main-content-title-list">2. 首页</div>
+			<p class='explain-p'>登录成功之后进入首页，如下图2 :</p>
+			<p class="img-p"><img class='img' src="images/index.png"/></p>
+			<p class='img-explain'>图2：库存app首页界面</p>
+
+			<div class="main-content-title-list">3. 领料出库</div>
+
+			<div class="null" id='ll'></div>
+			<div class="list-title">3.1 领料单列表</div>
+			<p class='explain-p-indent'>点击领料出库项将进入领料单列表:见图3.1</p>
+			<p class="img-p"><img class='img' src="images/llck.png"/></p>
+			<p class='img-explain'>图3.1：库存app领料出库-领料单列表</p>
+
+			<div class="null" id='ll-detail'></div>
+			<div class="list-title">3.2 领料单明细</div>
+			<p class='explain-p-indent'>点击领料列表任意一条数据，系统会自动显示该领料员对应车间的领料明细信息，您可以根据机台号筛选机台需领料的信息，每条信息上都有 ( 总领料件数 / 已领料件数 ) 。见图3.2</p>
+			<p class="img-p"><img class='img' src="images/ll-detail.png"/></p>
+			<p class='img-explain'>图3.2：库存app领料出库-领料单明细</p>
+
+			<div class="null" id='ll-detail-content'></div>
+			<div class="list-title">3.3 物料信息明细</div>
+			<p class='explain-p-indent'>点击一条领料明细数据将跳转到具体领料的类别信息，如领料的是丝将显示丝的表面状态，类别，结构，直径，强度 。右上方也出现扫码功能按钮。见图3.3</p>
+			<p class="img-p"><img class='img' src="images/ll-detail-content.png"/></p>
+			<p class='img-explain'>图3.3：库存app领料出库-物料信息明细</p>
+
+			<div class="null" id='ll-ck'></div>
+			<div class="list-title">3.4 扫码匹配出库</div>
+			<p class='explain-p-indent'>通过平板扫码器扫描工字轮编号或者手动输入工字轮编号之后，系统会匹配对应的工字轮信息，匹配成功之后则领料成功。见图3.4</p>
+			<p class="img-p"><img class='img' src="images/ll-ck.png"/></p>
+			<p class='img-explain'>图3.4：库存app领料出库-扫码匹配出库</p>
+
+			<div class="main-content-title-list">4. 销售出库</div>
+			<div class="null" id='sale'></div>
+			<div class="list-title">4.1 扫描出售</div>
+			<p class='explain-p-indent'>回到首页点击销售出库将进入扫描出售页面。见图4.1</p>
+			<p class="img-p"><img class='img' src="images/sale.png"/></p>
+			<p class='img-explain'>图4.1：库存app销售出库-扫描出售</p>
+			<p class='explain-p-indent'>扫描工字轮编号或者手动输入之后将显示将要出售这条数据的信息，点击确定那么将会出售成功，点击撤销则取消这次将要出售的物料。见图4.1.1</p>
+			<p class="img-p"><img class='img' src="images/sale-detail.png"/></p>
+			<p class='img-explain'>图4.1.1：库存app销售出库-扫描出售</p>
+		
+			<div class="null" id='zzp'></div>
+			<div class="list-title">5. 自制品入库</div>
+			<p class='explain-p-indent'>回到首页点击自制品入库将进入自制品入库页面。见图5</p>
+			<p class="img-p"><img class='img' src="images/zzp.png"/></p>
+			<p class='img-explain'>图5：库存app自制品入库-自制品入库</p>
+			<p class='explain-p-indent'>扫码工字轮或者手动输入工字轮编号，系统会显示对应的信息，点击确定则自制品入库成功。见图5.1</p>
+			<p class="img-p"><img class='img' src="images/zzp1.png"/></p>
+			<p class='img-explain'>图5.1：库存app自制品入库-自制品入库</p>
+
+			<div class="null" id='yl'></div>
+			<div class="list-title">6. 余料入库</div>
+			<p class='explain-p-indent'>回到首页点击余料入库将进入余料入库界面。见图6</p>
+			<p class="img-p"><img class='img' src="images/yl.png"/></p>
+			<p class='img-explain'>图6：库存app余料入库-余料入库</p>
+			<p class='explain-p-indent'>扫码余料的工字轮编号或者手动输入工字轮编号，系统将会显示该条信息，点击确定则余料入库成功。见图6.1</p>
+			<p class="img-p"><img class='img' src="images/yl-info.png"/></p>
+			<p class='img-explain'>图6.1：库存app余料入库-余料入库</p>
+		
+			<div class="null" id='wgp'></div>
+			<div class="list-title">7. 外购品入库</div>
+			<p class='explain-p-indent'>回到首页点击外购品入库将进入外购品入库界面。见图7</p>
+			<p class="img-p"><img class='img' src="images/wgp.png"/></p>
+			<p class='img-explain'>图7：库存app外购品入库-外购品入库</p>
+			<p class='explain-p-indent'>扫描工字轮编号或手动输入编号，如果该外购品工字轮编号存在系统内，系统会显示相应的信息，点击确定入库成功，点击撤销取消本次操作。见图7.1</p>
+			<p class="img-p"><img class='img' src="images/wgp1.png"/></p>
+			<p class='img-explain'>图7.1：库存app外购品入库-外购品入库</p>
+
+			<p class='explain-p-indent'>相对应的如果该工字轮编号不存在系统中，系统提供不同外购品分类模板填写之后保存即可。见图7.2,图7.3</p>
+			<p class="img-p"><img class='img' src="images/wgp2.png"/></p>
+			<p class='img-explain'>图7.2：库存app外购品入库-外购品入库</p>
+			<p class="img-p"><img class='img' src="images/wgp3.png"/></p>
+			<p class='img-explain'>图7.3：库存app外购品入库-外购品入库</p>
+
+			<div class="h1">二. 库存PC端：</div>
+
+			<div class="null" id='pc-wgp'></div>
+			<div class="list-title">1. 登录</div>
+			<p class='explain-p-indent'>登录到库存看板系统。见图1</p>
+			<p class="img-p"><img class='pc-img' src="images/pc-wgp.png"/></p>
+			<p class='img-explain'>图1：库存pc端登录</p>
+
+			<div class="null" id='pc-wgp-index'></div>
+			<div class="list-title">2. pc-外购品</div>
+			<p class='explain-p-indent'>库存看板外购品主页。见图2</p>
+			<p class="img-p"><img class='pc-img' src="images/pc-wgp-index.png"/></p>
+			<p class='img-explain'>图2：库存看板外购品主页</p>
+			<p class='explain-p-indent'>库存看板外购品主页-类型选择项,通过点击不同的类型显示不同的类型出入库数据。见图2.1</p>
+			<p class="img-p"><img class='pc-img' src="images/pc-wgp-tab.png"/></p>
+			<p class='img-explain'>图2.1：库存看板外购品主页-筛选类型项</p>
+			<p class='explain-p-indent'>库存看板外购品主页-筛选条件,通过点击查找类型的更多显示更新筛选信息像，比如：轮盘编号筛选项给用户自由现在从xx到xx编号，点击确定系统自动加入到您已选择项中，再点击查询按钮获取相应的筛选后的数据。见图2.2</p>
+			<p class="img-p"><img class='pc-img' src="images/pc-wgp-list.png"/></p>
+			<p class='img-explain'>图2.2：库存看板外购品主页-查找类型</p>
+		
+			<div class="null" id='pc-zzp-index'></div>
+			<div class="list-title">3. pc-自制品</div>
+			<p class='explain-p-indent'>库存看板自制品主页。见图3</p>
+			<p class="img-p"><img class='pc-img' src="images/pc-zzp-index.png"/></p>
+			<p class='img-explain'>图3：库存看板自制品主页</p>
+			<p class='explain-p-indent'>库存看板自制品主页-类型选择项,通过点击不同的类型显示不同的类型出入库数据。见图3.1</p>
+			<p class="img-p"><img class='pc-img' src="images/pc-wgp-tab.png"/></p>
+			<p class='img-explain'>图3.1：库存看板自制品主页-筛选类型项</p>
+			<p class='explain-p-indent'>库存看板自制品主页-筛选条件,通过点击查找类型的更多显示更新筛选信息像，比如：轮盘编号筛选项给用户自由现在从xx到xx编号，点击确定系统自动加入到您已选择项中，再点击查询按钮获取相应的筛选后的数据。见图3.2</p>
+			<p class="img-p"><img class='pc-img' src="images/pc-wgp-list.png"/></p>
+			<p class='img-explain'>图3.2：库存看板自制品主页-查找类型</p>
+		
+			<div class="null" id='pc-yl-index'></div>
+			<div class="list-title">4. pc-余料</div>
+			<p class='explain-p-indent'>库存看板余料主页。见图4</p>
+			<p class="img-p"><img class='pc-img' src="images/pc-yl-index.png"/></p>
+			<p class='img-explain'>图4：库存看板余料主页</p>
+			<p class='explain-p-indent'>库存看板余料主页-类型选择项,通过点击不同的类型显示不同的类型出入库数据。见图4.1</p>
+			<p class="img-p"><img class='pc-img' src="images/pc-wgp-tab.png"/></p>
+			<p class='img-explain'>图4.1：库存看板余料主页-筛选类型项</p>
+			<p class='explain-p-indent'>库存看板余料主页-筛选条件,通过点击查找类型的更多显示更新筛选信息像，比如：轮盘编号筛选项给用户自由现在从xx到xx编号，点击确定系统自动加入到您已选择项中，再点击查询按钮获取相应的筛选后的数据。见图3.2</p>
+			<p class="img-p"><img class='pc-img' src="images/pc-wgp-list.png"/></p>
+			<p class='img-explain'>图4.2：库存看板余料主页-查找类型</p>
+		
+			<div class="null" id='pc-export'></div>
+			<div class="list-title">5. pc-导出</div>
+			<p class='explain-p-indent'>库存看板导出主页，可以点击已入库和已出库选择分别切换到不同的导出数据。勾选选框点击一键导出按钮浏览器会自动下载excel文件到本地。见图5</p>
+			<p class="img-p"><img class='pc-img' src="images/pc-export-index.png"/></p>
+			<p class='img-explain'>图5：库存看板导出主页</p>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="js/zepto.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
